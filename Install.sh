@@ -85,7 +85,7 @@ systemctl --user start rslsync_user
 
 # Download RepairR4SD
 cd "$HOME/.R4SD" || exit 1
-wget https://github.com/Tritschla/Resilio4SteamDeck/blob/main/RepairR4SD.sh
+wget https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/RepairR4SD.sh
 
 
 # Creation of Uninstall-R4SD
