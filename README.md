@@ -1,47 +1,38 @@
 # R4SD - Resilio4SteamDeck
 
-This tool will help you to easily install Resilio Sync onto SteamDeck running SteamOS 3 and above.
+I created this tool to make it easy for users to install Resilio Sync onto their SteamDeck running SteamOS 3 and above.
 
 
 **Installation:** 
 
-(Right click -> safe file) [Click here](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) to download the newest version of R4SD. 
-Please safe the file onto your desktop and run it from there.
+To install the tool, simply download the newest version of R4SD by right-clicking and saving the file onto your desktop.
+
+[Click here](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) 
+
+Please safe the file to your downloads folder / desktop and run it from there.
 
 
 **Important information regarding SteamOS Updates**
 
-Due to the fact, how SteamOS gots updated from Valve, Resilio will fail to work after certain updates. 
-Therefore, after the installation of R4SD, a icon on your desktop appears to "Repair R4DS". 
-Please use this to get Resilio working as normal. 
+It's important to note that due to the way SteamOS is updated by Valve, Resilio may fail to work after certain updates. To remedy this, R4SD includes a "Repair R4DS" icon on your desktop after installation. Simply use this to get Resilio working as normal.
 
 
 **What is R4SD?**
 
-Basically, it is a collection of scripts, which helps you to install / maintain or even uninstall Resilio Sync. 
-To ensure, that the original files from Resilio Sync are in use on installation, R4SD is reaching out to the official website and downloading it from there. 
-While installation, R4SD is also taking care, that all needed dependencies are installed and creating auto start entries, so Resilio comes up as soon as your Steam Deck is booting. 
-Best thing is, that this is even working in Gaming Mode. So you can sync SaveStates, Screenshots or any other type of data without any hassle. 
+R4SD is essentially a collection of scripts that makes it easy to install, maintain, or even uninstall Resilio Sync. To ensure that the original files from Resilio Sync are used on installation, R4SD downloads them from the official website. During installation, R4SD also takes care of installing all needed dependencies and creating auto-start entries so that Resilio comes up as soon as your Steam Deck boots. And the best part is that this all works in Gaming Mode, so you can sync SaveStates, Screenshots, or any other type of data without any hassle.
 
 
 **Why should I use R4SD?**
 
-To install Resilio manually on the Steam Deck needs some knowledge about Linux and dependence packages as well as how they are installed and maintained.
-R4SD will take this bourden from you and installs all needed packages automatically. 
+Using R4SD is especially helpful for users who may not have experience with Linux or dependency of packages. This tool is built to get Resilio working so you can concentrate on the enjoyment, the Steam Deck has to offer.
 
 
 **What is Resilio in the first place?**
 
-If you don't know, what Resilio is, I would strongly recommend to have a look onto the official page: https://www.resilio.com/. 
-Please keep in mind, that I'm not part of the Resilio team or it's contributers. 
-I'm just a guy who wants to get Resilio working on SteamDeck, nothing more, nothing less. 
+If you're not familiar with Resilio Sync, I recommend checking out their official page at https://www.resilio.com/. It's important to note that I am not part of the Resilio team or its contributors; I simply created this tool because I wanted to get Resilio working on my SteamDeck.
 If you like the work, they are doing with this tool, please consider upgrading to their "Pro Version" of Resilio Sync. 
 
 
 **Who is Tritschla?**
 
-I am an IT Systems Engineer and Operations Manager and have been working in this business for more than 15 years. 
-Linux Bash programming and scripting are usually not part of my doing, because I mainly work in the Microsoft product range. But even there, tasks like this normally done elsewhere in the company. 
-Therefore I would like to ask for your indulgence regarding R4SD. If you find errors, we can talk about it for sure, but to what extent and in what timeframe I can fix them myself, remains to be seen. 
-I very much hope that other people interested in this topic will be able to contribute their knowledge here as well. 
-
+As for me, I am an IT Systems Engineer and Operations Manager with over 15 years of experience in the field. While Linux Bash programming and scripting are not typically within my area of expertise, I created R4SD to make the process of installing Resilio Sync easier for SteamDeck users. If you find any errors, feel free to let me know, but please understand that I may not be able to fix them immediately. I hope that others with knowledge in this area will also contribute to this project.
