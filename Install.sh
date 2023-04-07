@@ -136,6 +136,7 @@ Comment=This tool updates all necessary tools & packages to get Resilio Sync wor
 Exec=bash $HOME/.R4SD/RepairR4SD.sh
 Icon=btsync-gui
 Terminal=false
+Type=Application
 StartupNotify=false" >"$HOME"/Desktop/RepairR4SD.desktop
 chmod +x "$HOME"/Desktop/RepairR4SD.desktop
 
@@ -147,6 +148,7 @@ Comment=This tool updates all necessary tools & packages to get Resilio Sync wor
 Exec=bash $HOME/.R4SD/UninstallR4SD.sh
 Icon=btsync-gui
 Terminal=false
+Type=Application
 StartupNotify=false" >"$HOME"/Desktop/UninstallR4SD.desktop
 chmod +x "$HOME"/Desktop/UninstallR4SD.desktop
 
