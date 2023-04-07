@@ -5,10 +5,7 @@ I created this tool to make it easy for users to install Resilio Sync onto their
 
 **Installation:** 
 
-To install the tool, simply download the newest version of R4SD by right-clicking and saving the file onto your desktop.
-
-[Click here](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) 
-
+To install the tool, simply download the newest version of R4SD by [right-clicking here and saving the file](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop)  onto your desktop.
 Please safe the file to your downloads folder / desktop and run it from there.
 
 
