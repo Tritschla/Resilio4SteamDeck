@@ -86,6 +86,7 @@ systemctl --user start rslsync_user
 # Download RepairR4SD
 cd "$HOME/.R4SD" || exit 1
 wget https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/RepairR4SD.sh
+chmod +x "$HOME/.R4SD/RepairR4SD.sh"
 
 
 # Creation of Uninstall-R4SD
@@ -112,10 +113,19 @@ rm -f "$HOME/.config/systemd/user/rslsync_user.service"
 rm -rf "$HOME/rslsync"
 rm -rf "$HOME/.R4SD"
 
+# Delete Desktop Icons
+rm -rf "$HOME/Desktop/RepairR4SD.desktop"
+rm -rf "$HOME/Desktop/UninstallR4SD.desktop"
+
+# Delete Start Menue entries
+rm -rf "$HOME"/.local/share/applications/RepairR4SD.desktop
+rm -rf "$HOME"/.local/share/applications/UninstallR4SD.desktop
+
 # Notify the user that the uninstallation is complete
 zenity --info --title="Uninstall R4SD" --text="Resilio for Steam Deck has been successfully uninstalled." --width=300 2> /dev/null
 
 EOF
+chmod +x "$HOME/.R4SD/UninstallR4SD.sh"
 
 # Creation of Desktop Shortcuts
 rm -rf "$HOME"/Desktop/RepairR4SD.desktop 2>/dev/null
