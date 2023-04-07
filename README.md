@@ -3,7 +3,7 @@
 This tool will help you to easily install Resilio Sync onto SteamDeck running SteamOS 3 and above.
 
 **Installation:** 
-[Click here](https://github.com/Tritschla/Resilio4SteamDeck/blob/main/InstallResilio4SteamDeck.desktop) to download the newest version of R4SD.
+[Click here](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) to download the newest version of R4SD.
 Please safe the file onto your desktop and run it from there.
 
 **Important information regarding SteamOS Updates**
