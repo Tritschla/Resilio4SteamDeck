@@ -2,16 +2,19 @@
 
 This tool will help you to easily install Resilio Sync onto SteamDeck running SteamOS 3 and above.
 
+
 **Installation:** 
 
 (Right click -> safe file) [Click here](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) to download the newest version of R4SD. 
 Please safe the file onto your desktop and run it from there.
+
 
 **Important information regarding SteamOS Updates**
 
 Due to the fact, how SteamOS gots updated from Valve, Resilio will fail to work after certain updates. 
 Therefore, after the installation of R4SD, a icon on your desktop appears to "Repair R4DS". 
 Please use this to get Resilio working as normal. 
+
 
 **What is R4SD?**
 
@@ -20,10 +23,12 @@ To ensure, that the original files from Resilio Sync are in use on installation,
 While installation, R4SD is also taking care, that all needed dependencies are installed and creating auto start entries, so Resilio comes up as soon as your Steam Deck is booting. 
 Best thing is, that this is even working in Gaming Mode. So you can sync SaveStates, Screenshots or any other type of data without any hassle. 
 
+
 **Why should I use R4SD?**
 
 To install Resilio manually on the Steam Deck needs some knowledge about Linux and dependence packages as well as how they are installed and maintained.
 R4SD will take this bourden from you and installs all needed packages automatically. 
+
 
 **What is Resilio in the first place?**
 
@@ -31,6 +36,7 @@ If you don't know, what Resilio is, I would strongly recommend to have a look on
 Please keep in mind, that I'm not part of the Resilio team or it's contributers. 
 I'm just a guy who wants to get Resilio working on SteamDeck, nothing more, nothing less. 
 If you like the work, they are doing with this tool, please consider upgrading to their "Pro Version" of Resilio Sync. 
+
 
 **Who is Tritschla?**
 
