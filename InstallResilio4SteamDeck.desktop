@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Install Resilio4SteamDeck
+Exec=curl https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/Install.sh | bash -s --
+Icon=btsync-gui
+Terminal=true
+Type=Application
+StartupNotify=false
