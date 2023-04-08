@@ -40,7 +40,7 @@ echo "$PASSWORD" | sudo -S steamos-readonly disable
 
 # Initialize Arch Linux Keys
 echo "$PASSWORD" | sudo -S pacman-key --init
-echo "$PASSWORD" | sudo -S pacman-key --populate archlinux
+echo "$PASSWORD" | sudo pacman -Sy archlinux-keyring --noconfirm
 
 
 # Install needed package
