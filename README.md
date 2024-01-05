@@ -5,7 +5,7 @@ I created this tool to make it easy for users to install Resilio Sync onto their
 
 **Installation:** 
 
-To install the tool, simply go to desktop mode on your Steam Deck, open a browser and download the newest version of R4SD by [right-clicking here and saving the file](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) to your downloads folder / desktop and run it from there.
+To install the tool, simply go to desktop mode on your Steam Deck, open a browser and download the newest version of R4SD by [right-clicking here and saving the file](https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/InstallResilio4SteamDeck.desktop) (Save link as) to your downloads folder / desktop and run it from there.
 
 **Important information regarding SteamOS Updates**
 
