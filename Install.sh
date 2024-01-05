@@ -139,7 +139,7 @@ rm -rf "$HOME"/.local/share/applications/UninstallR4SD.desktop 2>/dev/null
 echo "#!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=Uninstall R4SD
-Exec=bash $HOME/.R4SD/RepairR4SD.sh
+Exec=bash $HOME/.R4SD/UninstallR4SD.sh
 Icon=btsync-gui
 Terminal=false
 Type=Application
