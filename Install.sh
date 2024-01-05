@@ -38,7 +38,9 @@ cd "$HOME/rslsync" || exit 1
 
 
 # Initialize Arch Linux Keys
-echo "$PASSWORD" | sudo -S pacman-key --init
+echo "$PASSWORD" | sudo rm /etc/pacman.d/gnupg
+echo "$PASSWORD" | sudo pacman-key --init
+echo "$PASSWORD" | sudo pacman-key --populate
 echo "$PASSWORD" | sudo pacman -Sy archlinux-keyring --noconfirm
 echo "$PASSWORD" | sudo pacman -Syy --noconfirm
 
