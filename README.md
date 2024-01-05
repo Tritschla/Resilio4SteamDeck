@@ -31,3 +31,9 @@ If you like the work, they are doing with this tool, please consider upgrading t
 **Who is Tritschla?**
 
 As for me, I am an IT Systems Engineer and Operations Manager with over 15 years of experience in the field. While Linux Bash programming and scripting are not typically within my area of expertise, I created R4SD to make the process of installing Resilio Sync easier for SteamDeck users. If you find any errors, feel free to let me know, but please understand that I may not be able to fix them immediately. I hope that others with knowledge in this area will also contribute to this project.
+
+
+**Contribution**
+
+Last but not least, I would like to thank the contributors to this little tool. They are the ones who help to keep R4SD alive: 
+- [jfryman](https://github.com/jfryman)
