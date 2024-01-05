@@ -13,16 +13,6 @@
 # 7. It is providing an Resilio4SteamRepair Script to reinstall needed packages, lost on SteamDeck OS updates
 # 8. It is providing an Uninstaller for R4SD incl. Resilio
 
-
-# Create a hidden directory for R4SD, if not present
-mkdir -p "$HOME/.R4SD" &>/dev/null
-cd "$HOME/.R4SD" || exit 1
-
-# Create a folder for rslsync, if not present
-mkdir -p "$HOME/rslsync" &>/dev/null
-cd "$HOME/rslsync" || exit 1
-
-
 # Check for sudo access
 set -e
 
@@ -38,11 +28,19 @@ echo "$PASSWORD" | sudo -Sv || (zenity --error --text="Incorrect password." --wi
 echo "$PASSWORD" | sudo -S steamos-readonly disable
 
 
+# Create a hidden directory for R4SD, if not present
+mkdir -p "$HOME/.R4SD" &>/dev/null
+cd "$HOME/.R4SD" || exit 1
+
+# Create a folder for rslsync, if not present
+mkdir -p "$HOME/rslsync" &>/dev/null
+cd "$HOME/rslsync" || exit 1
+
+
 # Initialize Arch Linux Keys
 echo "$PASSWORD" | sudo -S pacman-key --init
 echo "$PASSWORD" | sudo pacman -Sy archlinux-keyring --noconfirm
 echo "$PASSWORD" | sudo pacman -Syy --noconfirm
-
 
 
 # Install needed package
