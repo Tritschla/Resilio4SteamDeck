@@ -19,9 +19,15 @@ echo "$PASSWORD" | sudo -Sv || (zenity --error --text="Incorrect password." --wi
 # Deactivate readonly filesystem
 echo "$PASSWORD" | sudo -S steamos-readonly disable
 
+# Remove folder with certificate information
+echo "$PASSWORD" | sudo rm -rf /etc/pacman.d/gnupg
+
 # Initialize Arch Linux Keys
-echo "$PASSWORD" | sudo -S pacman-key --init
-echo "$PASSWORD" | sudo -S pacman-key --populate archlinux
+#echo "$PASSWORD" | sudo -S pacman-key --populate archlinux
+echo "$PASSWORD" | sudo pacman-key --init
+echo "$PASSWORD" | sudo pacman-key --populate
+echo "$PASSWORD" | sudo pacman -Sy archlinux-keyring --noconfirm
+echo "$PASSWORD" | sudo pacman -Syy --noconfirm
 
 # Install needed package
 echo "$PASSWORD" | sudo -S pacman -Syyu --noconfirm lib32-libxcrypt-compat
