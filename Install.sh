@@ -56,7 +56,7 @@ git clone https://aur.archlinux.org/rslsync.git
 
 # Download i386 rslsync package:
 cd "$HOME/.R4SD" || exit 1
-wget https://download-cdn.resilio.com/stable/linux-i386/resilio-sync_i386.tar.gz
+wget https://download-cdn.resilio.com/stable/linux/i386/0/resilio-sync_i386.tar.gz
 
 
 # Extract i386 files to destination folder
