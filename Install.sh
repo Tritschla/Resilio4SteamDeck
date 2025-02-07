@@ -56,11 +56,11 @@ git clone https://aur.archlinux.org/rslsync.git
 
 # Download i386 rslsync package:
 cd "$HOME/.R4SD" || exit 1
-wget https://download-cdn.resilio.com/stable/linux/i386/0/resilio-sync_i386.tar.gz
+wget https://download-cdn.resilio.com/stable/linux/x64/0/resilio-sync_x64.tar.gz
 
 
 # Extract i386 files to destination folder
-tar -xzf resilio-sync_i386.tar.gz -C "$HOME/rslsync"
+tar -xzf resilio-sync_x64.tar.gz -C "$HOME/rslsync"
 
 
 # Create Resilio rslsync_user.service
