@@ -38,4 +38,4 @@ As for me, I am an IT Systems Engineer and Operations Manager with over 15 years
 Last but not least, I would like to thank the contributors to this little tool. They are the ones who help to keep R4SD alive: 
 - [jfryman](https://github.com/jfryman)
 - [joshuafuller](https://github.com/joshuafuller)
-- [epiccelt]https://github.com/epiccelt
+- [epiccelt](https://github.com/epiccelt)
