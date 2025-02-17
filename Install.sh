@@ -54,12 +54,12 @@ cd "$HOME" || exit 1
 git clone https://aur.archlinux.org/rslsync.git
 
 
-# Download i386 rslsync package:
+# Download x64 rslsync package:
 cd "$HOME/.R4SD" || exit 1
 wget https://download-cdn.resilio.com/stable/linux/x64/0/resilio-sync_x64.tar.gz
 
 
-# Extract i386 files to destination folder
+# Extract x64 files to destination folder
 tar -xzf resilio-sync_x64.tar.gz -C "$HOME/rslsync"
 
 
